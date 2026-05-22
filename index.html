@@ -323,10 +323,6 @@
       margin-top: 10px;
     }
 
-    .result-page {
-      padding: 16px;
-    }
-
     .result-item {
       border: 1px solid var(--border);
       border-radius: 14px;
@@ -421,7 +417,7 @@
     const allCards = Array.from({ length: TOTAL_CARDS }, (_, i) => ({
       id: i + 1,
       title: `OH卡 ${i + 1}`,
-      image: `images/${i + 1}.jpg`
+      image: `${i + 1}.jpg`
     }));
 
     let currentRound = 1;
